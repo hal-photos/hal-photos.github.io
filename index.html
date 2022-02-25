@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Hal' Gallery - photos</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="岩手いらすと.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title"><a href="index.html">Hal's Gallery</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Photos</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://www.instagram.com/hal_photos_/" target="_blank">
+              <img class="icon" src="icon-instagram.png" alt="インスタグラム">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="IMG_3195 2 (1).jpg">
+          <img src="IMG_3195 (1).jpg" alt="郵便局">
+        </picture>
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <ul>
+          <li>Hal</li>
+          <li>Iwate, Japan</li>
+          <li>url: https://github.com/hal-photos/hal-photos.github.io.git</li>
+        </ul>
+        <p>
+          プロフィール: ふとした時に写真を撮る活動をしています。
+        </p>
+      </section>
+
+      <section id="works" class="wrapper">
+        <h2 class="sec-title">Works</h2>
+        <ul>
+          <!-- 同じファイルリンク飛び、触ると薄くなる、手になるやつか -->
+          <li><a href="page1.html" target="_blank"><img src="IMG_ys.jpg" alt="夕日"></a></li>
+          <li><img src="IMG_spring (1).jpg" alt="春"></li>
+          <li><img src="IMG_2225 (1).jpg" alt="人工物"></li>
+          <li><img src="IMG_night (1).jpg" alt="夜"></li>
+          <li><img src="IMG_winter (1).jpg" alt="冬"></li>
+          <li><img src="IMG_nature (1).jpg" alt="自然"></li>
+        </ul>
+      </section>
+
+      <section id="news" class="wrapper">
+        <h2 class="sec-title">News</h2>
+        <dl>
+          <dt>2021.08.13</dt>
+          <dd>インスタグラムを解説</dd>
+          <dt>202X.XX.XX</dt>
+          <dd>これから頑張ります。</dd>
+          <dt>202X.XX.XX</dt>
+          <dd>もっと頑張ります。</dd>
+        </dl>
+      </section>
+
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; Hal's Gallery - photos</p>
+    </footer>
+
+  </body>
+
+</html>
